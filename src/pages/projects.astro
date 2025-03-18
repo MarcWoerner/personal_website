@@ -1,0 +1,51 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Navigation from '../components/Navigation.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import { getCollection } from 'astro:content';
+import FormattedDate from '../components/FormattedDate.astro';
+
+const posts = (await getCollection('posts')).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+
+const blogPosts = posts.filter(post => post.data.type === 'blog');
+
+
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body class="max-w-prose m-auto px-4 font-mono">
+		<Header />
+		<main>
+			<section>
+				<h1 class="font-display text-lg sm:text-2xl leading-loose font-bold mb-8">Projects</h1>
+				<ul>
+					{
+						blogPosts.map((post) => (
+							<li class="mb-8">
+								<a href={`/${post.id}/`}>
+									<h2 class="font-display text-lg sm:text-l leading-loose underline">{post.data.title}</h4>
+								</a>
+								<p class="text-gray-700">{post.data.description}</p>
+								<div class="mt-2 flex flex-wrap gap-2">
+								{post.data.tags.map(tag => (
+									<span class="px-1 py-0.5 text-sm font-semibold bg-blue-300 text-white rounded">{tag}</span>
+								))}
+								</div>
+							</li>
+						))
+					}
+				</ul>
+			<section>
+		</main>
+		<Footer />
+	</body>
+</html>
+

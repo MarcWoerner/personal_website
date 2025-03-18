@@ -1,0 +1,74 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Navigation from '../components/Navigation.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import { getCollection } from 'astro:content';
+import FormattedDate from '../components/FormattedDate.astro';
+
+const books = [
+  { title: "Siddharta",  author: "Herrmann Hesse", isbn: "9780811200684" },
+  { title: "Untethered Soul", author: "Michael A. Singer", isbn: "9781572245372" },
+  { title: "Zen and the Art of Motorcycle Maintenance", author: "Robert M. Pirsig", isbn: "978-0-09-978640-5" },
+  { title: "Finite and Infinite Games", author: "James Carse", isbn: "978-1-4767-3171-1" },
+  { title: "Gödel, Escher, Bach - ein Endloses Geflochtenes Band", author: "Douglas Hofstadter", isbn: "978-3-608-94906-3" },
+  { title: "Show your Work!", author: "Austin Kleon", isbn: "978-3-442-39299-5" },
+  { title: "Atomic Habits", author: "James Clear", isbn: "978-0-7352-1129-2" },
+  { title: "Deep Work", author: "Cal Newport", isbn: "978-0-349-41190-3" },
+  { title: "The Compound Effect", author: "Darren Hardy Llc", isbn: "978-1-399-80578-0" },
+];
+
+async function fetchBookCover(isbn) {
+  const url = `https://bookcover.longitood.com/bookcover/${isbn}`;
+  const response = await fetch(url);
+  if (!response.ok) return null;
+  const data = await response.json();
+  return data.url;
+}
+
+const bookCovers = await Promise.all(
+  books.map(async (book) => ({
+    title: book.title,
+    author: book.author,
+    coverUrl: await fetchBookCover(book.isbn),
+  }))
+);
+
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body class="max-w-prose m-auto px-4 font-mono">
+		<Header />
+		<main>
+			<section>
+				<h1 class="font-display text-lg sm:text-2xl leading-loose font-bold">Books worth rereading...</h1>
+				<p class="text-sm sm:text-base text-gray-700 mb-8">
+					Here, I’ve gathered a selection of books that have profoundly impacted me in different ways. These aren’t just good reads; they are books that have challenged my thinking, deepened my understanding of the world, and continue to resonate with me long after turning the last page.
+				</p>
+			<section>
+				<section>
+					<section>
+						<div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+						{bookCovers.map(book => (
+								<div class="text-center">
+									<a href="/books/" class="block group"> 
+										<img class="w-40 h-60 object-cover rounded-lg shadow-md transition-transform transform group-hover:scale-105 group-hover:shadow-lg group-hover:shadow-gray-500/50" 
+										src={book.coverUrl} 
+										alt={`Cover of ${book.title}`} />
+									</a>
+								</div>
+						))}
+						</div>
+				  </section>
+				  
+			<section>
+		</main>
+		<Footer />
+	</body>
+</html>
+
