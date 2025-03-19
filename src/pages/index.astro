@@ -12,8 +12,8 @@ const posts = (await getCollection('posts')).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
 
-const articlesPosts = posts.filter(post => post.data.type === 'article');
-const blogPosts = posts.filter(post => post.data.type === 'blog');
+const articlePosts = posts.filter(post => post.data.type === 'article');
+const projectPosts = posts.filter(post => post.data.type === 'project');
 
 ---
 
@@ -41,7 +41,7 @@ const blogPosts = posts.filter(post => post.data.type === 'blog');
 				  </div>
 				<ul>
 					{
-						blogPosts.slice(0, 3).map((post) => (
+						projectPosts.slice(0, 3).map((post) => (
 							<li class="mb-8">
 								<a href={`/${post.id}/`}>
 									<h2 class="font-display text-lg sm:text-l leading-loose underline">{post.data.title}</h4>
@@ -62,7 +62,7 @@ const blogPosts = posts.filter(post => post.data.type === 'blog');
 				  </div>
 				<ul>
 					{
-					  articlesPosts.slice(0, 3).map((post) => (
+					  articlePosts.slice(0, 3).map((post) => (
 						<li class="mb-8">
 						  <a href={`/${post.id}/`}>
 							<h2 class="font-display text-lg sm:text-l leading-loose underline">{post.data.title}</h2>

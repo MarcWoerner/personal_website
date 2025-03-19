@@ -11,7 +11,7 @@ const posts = (await getCollection('posts')).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
 
-const articlesPosts = posts.filter(post => post.data.type === 'article');
+const articlePosts = posts.filter(post => post.data.type === 'article');
 
 
 
@@ -29,7 +29,7 @@ const articlesPosts = posts.filter(post => post.data.type === 'article');
 				<h1 class="font-display text-lg sm:text-2xl leading-loose font-bold mb-8">Articles</h1>
 				<ul>
 					{
-					  articlesPosts.map((post) => (
+					  articlePosts.map((post) => (
 						<li class="mb-8">
 						  <a href={`/${post.id}/`}>
 							<h2 class="font-display text-lg sm:text-l leading-loose underline">{post.data.title}</h2>
