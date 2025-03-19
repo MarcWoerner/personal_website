@@ -11,7 +11,7 @@ const posts = (await getCollection('posts')).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
 
-const blogPosts = posts.filter(post => post.data.type === 'blog');
+const projectPosts = posts.filter(post => post.data.type === 'project');
 
 
 ---
@@ -28,7 +28,7 @@ const blogPosts = posts.filter(post => post.data.type === 'blog');
 				<h1 class="font-display text-lg sm:text-2xl leading-loose font-bold mb-8">Projects</h1>
 				<ul>
 					{
-						blogPosts.map((post) => (
+						projectPosts.map((post) => (
 							<li class="mb-8">
 								<a href={`/${post.id}/`}>
 									<h2 class="font-display text-lg sm:text-l leading-loose underline">{post.data.title}</h4>
