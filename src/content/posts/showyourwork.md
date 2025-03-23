@@ -10,13 +10,13 @@ type: "article"
 # Table of Contents
 
 1.  [Show your work](#org779c308)
-    1.  [You dont have to be a genious](#org4081154)
-    2.  [Think Process, not Product](#org3c2e029)
+    1.  [You dont have to be a genius](#org4081154)
+    2.  [Think process, not product](#org3c2e029)
     3.  [Share something small every day](#org8340112)
     4.  [Open up your cabinet of curiosity](#org466f557)
-    5.  [Tell good Stories](#org6ec5c57)
+    5.  [Tell good stories](#org6ec5c57)
     6.  [Teach what you know](#org3fb9e08)
-    7.  [Dont turn into human spam](#org499f7f6)
+    7.  [Don't turn into human spam](#org499f7f6)
     8.  [Learn to take a punch](#orgdab78a2)
     9.  [Sell out](#orgf88b4c6)
     10. [Stick around](#org17c72a3)
