@@ -6,9 +6,6 @@ tags: ['slip-box', 'note-taking', 'writing', 'productivity']
 type: 'article'
 ---
 
-
-# Taking Smart Notes
-
 While looking at my well-structured codebase on the right and a blank page on the left, one sentence from my supervisor echoed in my head: "The written pages are what counts." At the time, I was a Data Science student working on my Bachelor’s thesis. I ran into pretty much every challenge people warn you about when you're starting such an academic project.
 
 I wrote code believing that the lines in my text editor would sufficiently document my thought process. But as time revealed its relativity and the end of the working period loomed—with only about two weeks left—things became challenging. The main issue was that while my code documented the steps I had taken, it reflected results rather than ideas. The underlying thoughts were missing.
