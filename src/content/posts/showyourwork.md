@@ -1,5 +1,5 @@
 ---
-title: 'Show your work! - a book summary'
+title: 'Show your work! - a Book Summary'
 description: 'Sharing your creative process, making your work discoverable, building an audience through generosity and collaboration, and embracing the challenges of being visible in the creative world.'
 pubDate: 'Oct 17 2024'
 tags: ['markdown', 'astro', 'guide']
@@ -21,8 +21,6 @@ type: "article"
     9.  [Sell out](#orgf88b4c6)
     10. [Stick around](#org17c72a3)
 
-
-
 <a id="org779c308"></a>
 
 # Show your work!
@@ -32,7 +30,7 @@ type: "article"
 
 <a id="org4081154"></a>
 
-## Chapter 1: You dont have to be a genious
+## Chapter 1: You dont have to be a genius
 
 -   **Reject the "lone genius" myth** — creativity doesn’t happen in isolation.
 -   **Focus on a creative ecosystem** where talent thrives collectively.
