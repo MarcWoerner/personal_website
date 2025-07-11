@@ -19,7 +19,8 @@ While learning this the hard way I started thinking about notetaking and how an 
 
 The author makes it clear from the beginning that academic or non-fiction writing needs a solid structure:
 
-"A good structure is something you can trust. It relieves you from the burden of remembering and keeping track of everything. If you can trust the system, you can let go of the attempt to hold everything together in your head and you can start focusing on the important."
+> “A good structure is something you can trust. It relieves you from the burden of remembering and keeping track of everything. If you can trust the system, you can let go of the attempt to hold everything together in your head and you can start focusing on the important.”  
+> — *Sönke Ahrens, How to Take Smart Notes*
 
 I really like the quote because I can relate to it through other areas of my life. For instance, using a calendar to structure my daily routine feels completely natural to me — I always know what happens when. As a result, I never get the feeling that I may have forgotten something or left something unfinished. The same logic applies to writing: once you’ve established a clear structure, you can shift your focus to the more important and creative part — generating ideas.
 
