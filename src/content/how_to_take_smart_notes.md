@@ -1,8 +1,8 @@
 ---
 title: 'How to Take Smart Notes'
 description: 'A practical guide to using the Zettelkasten method to improve thinking, writing, and learning by building a network of connected notes that turn reading into a creative and productive process.'
-pubDate: '2024-10-17'
-tags: ['zettelkasten', 'note-taking', 'writing', 'productivity']
+pubDate: '2025-06-11'
+tags: ['slip-box', 'note-taking', 'writing', 'productivity']
 type: 'article'
 ---
 
