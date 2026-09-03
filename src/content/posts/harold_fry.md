@@ -1,4 +1,3 @@
-
 ---
 title: 'The Unlikely Pilgrimage of Harold Fry - Thoughts on a Book'
 description: 'test'
