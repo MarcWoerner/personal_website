@@ -1,18 +1,21 @@
 
+---
+title: 'The Unlikely Pilgrimage of Harold Fry - Thoughts on a Book'
+description: 'test'
+pubDate: '2026-09-03'
+tags: []
+type: 'article'
+---
 
-# The Unlikely Pilgrimage of Harold Fry - Thoughts on a Book
+## The Unlikely Pilgrimage of Harold Fry - Thoughts on a Book
 
 I am writing this a few days after returning home from a hitchhiking trip from the Alps to the Atlantic coast. I used my overtime at work to go on a little summer adventure, where The Unlikely Pilgrimage of Harold Fry became a kind of companion along the way. The book, together with the travelling, showed me why it is important to give your mind the space to wander. In this text, I will share my approach to achieving that. 
-
----
 
 The Unlikely Pilgrimage of Harold Fry follows Harold Fry, a retired man who receives a letter from Queenie, a woman he has not spoken to in 20 years. She tells him that she is suffering from cancer in a hospital on the other side of England. After writing a reply, Harold intends to mail it, but instead of stopping at the nearby mailbox, he keeps walking. Believing that as long as he continues his journey on foot, Queenie will stay alive, he decides to deliver the letter to her himself.
 
 On the way, he is forced to step out of the daily routines and habits he has lived by for years. By nature, this way of travelling reduces the amount of comfort and convenience, but step by step, he also realizes how joyful such a simple life can be. As a consequence, he starts stripping away everything he does not really need. And as the physical world around him becomes simpler and clearer, so does his mind. He realizes that there is mental space to move in now. This space confronts Harold with the central questions of his life—questions he had successfully avoided in the past.
 
 After Harold leaves home, his wife Maureen is initially upset and confused by his sudden departure. However, as time passes, she too is confronted with this new, unfamiliar situation. The hole Harold left in her daily life also creates space for thoughts and questions she had previously been able to keep at a distance. This triggers a similar process of reflection on her side.
-
----
 
 Without going into too much detail, and to give you, as the reader, the freedom to experience the book without being spoiled too much, I want to use the situation Harold and Maureen find themselves in as a starting point for a question that arose for me about halfway through the book.
 
@@ -34,8 +37,6 @@ It’s like climbing a ladder without asking whether it’s leaning against the 
 
 But can this really last? Can we keep moving through life without ever stopping to reflect?
 
---- 
-
 There are two potential ways this can evolve.
 
 The first could be illustrated by the Eisenhower Decision Matrix, where the quadrant of things that are important but not urgent comes under increasing pressure because it has been ignored for decades (Fig. 1). Eventually, it will explode. Society has given the aftermath a name: a midlife crisis.
@@ -48,8 +49,6 @@ The other outcome would be more like what happens with Harold and Maureen. Life 
 
 But even the most trusting dog, if it has been kept in a little kennel for long enough, probably won’t simply walk out peacefully.
 
----
-
 So what should we do to avoid these outcomes?
 
 Reduce the pressure regularly. And that pressure can be reduced by giving your mind the space it needs to bring important topics back to the surface. We also shouldn’t rely on that happening by chance. We need to find ways to deliberately ask ourselves the important questions every now and then.
@@ -57,8 +56,6 @@ Reduce the pressure regularly. And that pressure can be reduced by giving your m
 So what does that look like in practice?
 
 I want to share the three approaches that have stuck with me over the past few years and that I have found most helpful.
-
----
 
 1. Start with finding your Questions
 
@@ -101,10 +98,6 @@ And that is when something interesting happens. The boredom comes back.
 
 Enjoy it!
 
----
-
 Maybe boredom is the doorway into the “important but not urgent” part of the matrix.
-
----
 
 
