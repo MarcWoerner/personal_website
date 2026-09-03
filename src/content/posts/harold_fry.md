@@ -1,12 +1,10 @@
 ---
 title: 'The Unlikely Pilgrimage of Harold Fry - Thoughts on a Book'
-description: 'test'
+description: 'I started with a summary of the book, but then I got lost in a thought that kept coming back to me. This is the result. Enjoy the read!'
 pubDate: '2026-09-03'
 tags: []
 type: 'article'
 ---
-
-## The Unlikely Pilgrimage of Harold Fry - Thoughts on a Book
 
 I am writing this a few days after returning home from a hitchhiking trip from the Alps to the Atlantic coast. I used my overtime at work to go on a little summer adventure, where The Unlikely Pilgrimage of Harold Fry became a kind of companion along the way. The book, together with the travelling, showed me why it is important to give your mind the space to wander. In this text, I will share my approach to achieving that. 
 
@@ -40,9 +38,7 @@ There are two potential ways this can evolve.
 
 The first could be illustrated by the Eisenhower Decision Matrix, where the quadrant of things that are important but not urgent comes under increasing pressure because it has been ignored for decades (Fig. 1). Eventually, it will explode. Society has given the aftermath a name: a midlife crisis.
 
-
-
-
+![My image](einsenhower_matrix.jpg)
 
 The other outcome would be more like what happens with Harold and Maureen. Life opens up a little. Retirement, more time, fewer distractions—and finally, there is enough space for the thoughts and questions you have been keeping at a distance to come to the surface.
 
@@ -56,7 +52,7 @@ So what does that look like in practice?
 
 I want to share the three approaches that have stuck with me over the past few years and that I have found most helpful.
 
-1. Start with finding your Questions
+## 1. Start with finding your Questions
 
 What makes your life worth it? 
 What is important for you? 
@@ -73,7 +69,7 @@ I personally have been doing a yearly review with friends around New Year’s fo
 In addition to that, I regularly meet up with my best friend to check in on life. These conversations give us space to ask ourselves questions like these, but also simply to catch up on how we are doing and what is going on in our lives. It is something like a shorter-scale version of the yearly review above. 
 
 
-2. Create long phases to let things just flow 
+## 2. Create long phases to let things just flow 
 
 Another thing that helps me a lot is creating phases of free time. Like, real free time. Not active holidays where you have everything planned out from the beginning. Just go somewhere, grab your close friends, and do something you enjoy.
 
@@ -81,7 +77,7 @@ In my case, these phases are parkour and camping trips where we just flow throug
 
 Don’t plan. Just go out and see what happens.
 
-3. Get your attention back - or be bored more
+## 3. Get your attention back - or be bored more
 
 The platforms we use are, not gonna lie, both a blessing and a curse. They can help us get inspired and stay connected, but most of the time, I would argue that they kill our drive and motivation.
 
@@ -96,6 +92,8 @@ At first, you will probably notice yourself reaching for your phone almost autom
 And that is when something interesting happens. The boredom comes back.
 
 Enjoy it!
+
+---
 
 Maybe boredom is the doorway into the “important but not urgent” part of the matrix.
 
