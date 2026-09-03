@@ -41,7 +41,7 @@ There are two potential ways this can evolve.
 The first could be illustrated by the Eisenhower Decision Matrix, where the quadrant of things that are important but not urgent comes under increasing pressure because it has been ignored for decades (Fig. 1). Eventually, it will explode. Society has given the aftermath a name: a midlife crisis.
 
 
-![image](personal_website/public/eisenhower_matrix.jpg)
+
 
 
 The other outcome would be more like what happens with Harold and Maureen. Life opens up a little. Retirement, more time, fewer distractions—and finally, there is enough space for the thoughts and questions you have been keeping at a distance to come to the surface.
