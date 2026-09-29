@@ -19,22 +19,17 @@ const books = [
   { title: "The Compound Effect", author: "Darren Hardy Llc", isbn: "978-1-399-80578-0", article: "/books/" },
 ];
 
-async function fetchBookCover(isbn) {
-  const url = `https://bookcover.longitood.com/bookcover?isbn=${isbn}`;
-  const response = await fetch(url);
-  if (!response.ok) return null;
-  const data = await response.json();
-  return data.url;
+// Local covers in public/covers/ take precedence; otherwise use Open Library.
+function bookCoverUrl(isbn) {
+  return `https://covers.openlibrary.org/b/isbn/${isbn.replaceAll('-', '')}-L.jpg`;
 }
 
-const bookCovers = await Promise.all(
-  books.map(async (book) => ({
-    title: book.title,
-    author: book.author,
-    coverUrl: await fetchBookCover(book.isbn),
-	article: book.article,
-  }))
-);
+const bookCovers = books.map((book) => ({
+  title: book.title,
+  author: book.author,
+  coverUrl: book.cover ?? bookCoverUrl(book.isbn),
+  article: book.article,
+}));
 
 ---
 
