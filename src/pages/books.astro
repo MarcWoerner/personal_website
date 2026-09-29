@@ -20,7 +20,7 @@ const books = [
 ];
 
 async function fetchBookCover(isbn) {
-  const url = `https://bookcover.longitood.com/bookcover/${isbn}`;
+  const url = `https://bookcover.longitood.com/bookcover?isbn=${isbn}`;
   const response = await fetch(url);
   if (!response.ok) return null;
   const data = await response.json();
