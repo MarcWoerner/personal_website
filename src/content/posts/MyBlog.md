@@ -8,7 +8,7 @@ type: 'project'
 
 ## Motivation
 
-The idea for this project came up after reading "Show Your Work." The idea of having some public place to put my projects really resonated with me. I think many creative people have the problem of having too many loose ends of unfinished projects. We tend to think that these will be finished at some point in life. But let's be honest, that point rarely arises, and there are also so many other interesting ideas and sidequests to follow!
+The idea for this project came up after reading ["Show Your Work."](/showyourwork.md/) The idea of having some public place to put my projects really resonated with me. I think many creative people have the problem of having too many loose ends of unfinished projects. We tend to think that these will be finished at some point in life. But let's be honest, that point rarely arises, and there are also so many other interesting ideas and sidequests to follow!
 
 My general approach to handling this is to give some sort of structure to clearly define periods in time where I can let processes just flow. And then the structure catches that flowing creativity and puts the things into a solid form. Part of that self-control framework is this blog. Here I am forced to put things that are finished to some extent. Maybe it's only a chapter of a bigger picture, but at least that little part got its form.
 
