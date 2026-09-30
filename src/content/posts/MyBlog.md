@@ -143,4 +143,4 @@ I was also inspired by blas.com, who has read and summarized pretty much every b
 
 ## How to Deploy a Website?
 
-To deploy the website for free, I recommend using the service Vercel. You simply connect your Git repository to Vercel. After signing in with your GitHub account, you select the repository and let Vercel detect the project settings automatically. With just a few clicks, the website is built and deployed, and Vercel also provides a public URL where it can be accessed. From then on, every time I push changes to the repository, Vercel automatically builds and deploys the updated version.
+To deploy the website for free, I recommend using the service from Vercel. You simply connect your Git repository to Vercel. After signing in with your GitHub account, you select the repository and let Vercel detect the project settings automatically. With just a few clicks, the website is built and deployed, and Vercel also provides a public URL where it can be accessed. From then on, every time I push changes to the repository, Vercel automatically builds and deploys the updated version.
