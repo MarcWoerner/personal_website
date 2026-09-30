@@ -52,6 +52,7 @@ const projectPosts = posts.filter(post => post.data.type === 'project');
 									<span class="px-1 py-0.5 text-sm font-semibold bg-blue-300 text-white rounded">{tag}</span>
 								))}
 								</div>
+								<p class="text-gray-500 text-sm mt-2">{new Date(post.data.pubDate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
 							</li>
 						))
 					}
