@@ -4,7 +4,7 @@ description: 'There was a need for a public place to put Projects, Thoughts and 
 pubDate: '2026-09-03'
 tags: []
 type: 'project'
----------------
+---
 
 ## Motivation
 
