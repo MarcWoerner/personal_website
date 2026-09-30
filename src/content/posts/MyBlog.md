@@ -1,7 +1,7 @@
 ---
 title: 'How to Create This Blog'
 description: 'There was a need for a public place to put Projects, Thoughts and Ideas in a structured and finished form.'
-pubDate: '2026-09-03'
+pubDate: '2026-05-09'
 tags: ["Java-Script", "Tailwind-CSS", "Astro"]
 type: 'project'
 ---
